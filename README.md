@@ -6,4 +6,4 @@ A testing jig created with an arduino UNO to test refurbished LCD units
 #### Preferrably panel mount
 - Push Button
 - Potentiometer
-- (optional) Push Button or Switch 
+- (optional) Push Button or Switch <sup>This will be used to text the backlights for LCD</sup>
