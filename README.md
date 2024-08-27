@@ -13,6 +13,6 @@ A testing jig created with an arduino UNO to test refurbished LCD units
 - <sup>(optional)</sup> Power Switch <sup> For Power </sup>
 
 ## Configuring Hardware
-There are many optional parts as mentioned above because all of this can be hardwired depending on how much time you're willing to create this jig. 
+There are many optional parts as mentioned above because all of this can be hardwired depending on how much time you're willing to pour into creating this jig. I built the below example for work and built everything with alot of swapable parts and pin leads to make things easier to dismantle when/if needed.
 
 Essentially we need to create a prototype board that has a header that can take the LCD we are trying to test (if the LCD doesn't come with any headers we can build this with a cable coming out of the unit with pushipins either arranged as 16x1 OR 8x2 so we can accommodate most LCDs on the market OR we can also design this LCD prototype board to take mulitple different headers.
