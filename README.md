@@ -4,8 +4,8 @@ A testing jig created with an arduino UNO to test refurbished LCD units
 ## What you'll need:
 ### Hardware
 - Arduino UNO
-- <sup>(optional)</sup> Prototyping PCBs
-- <sup>(optional)</sup> Headers for at leat 14 - 16 pins
+- Prototyping PCBs with at least 8 lines across OR at least 16 lines +/-2 for power and ground lines
+- <sup>(optional)</sup> Headers for at least 14 - 16 pins
 #### Preferrably panel mount
 - Push Button
 - <sup>(optional)</sup> Push Button or Switch <sup>This will be used to text the backlights for LCD</sup>
