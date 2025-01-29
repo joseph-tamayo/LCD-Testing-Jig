@@ -1,5 +1,18 @@
 # LCD-Testing-Jig
-A testing jig created with an arduino UNO to test refurbished LCD units
+The original design of this jig was to create a testing jig that would test the functionality and backlight of a particular 16pin Character LCD unit (Winstar 1602E) and when I refer to the LCD unit, I will be refering to this model.
+This is a testing jig that scrolls a message across both horizontal lines of the LCD unit to test if all the "pixels" on the dot matrix are working and to also test if the backlight works. 
+An Arduino UNO will be the brains of the functionality.
+
+### Flexibility
+This project can be designed and built with flexibility to have this jig service several different character LCD's such as using a panel mounted 16 pin connector to simulate each pin on the LCD, then create different types of headers for each kind of character LCD unit to test.
+
+The currently built version I built has the following features:
+- Power switch
+- Push button for backlight ON/OFF
+- Reset switch (Resets Arduino)
+- Potentiometer (To adjust the contrast of LCD screen)
+- Two headers to test two LCD units at a time
+- Cutout for an extension cable (To possibly create another testing jig to test more units using the same Arduino)
 
 ## What you'll need:
 ### Hardware
@@ -8,7 +21,7 @@ A testing jig created with an arduino UNO to test refurbished LCD units
 - <sup>(optional)</sup> Headers for at least 14 - 16 pins
 #### Preferrably panel mount
 - Push Button
-- <sup>(optional)</sup> Push Button or Switch <sup>This will be used to text the backlights for LCD</sup>
+- <sup>(optional)</sup> Push Button or Switch <sup>This will be used to test the backlight for LCD</sup>
 - Potentiometer
 - <sup>(optional)</sup> Power Switch <sup> For Power </sup>
 
