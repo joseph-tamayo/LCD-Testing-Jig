@@ -27,12 +27,19 @@ The currently built version has the following features:
 - <sup>(optional)</sup> Power Switch <sup> For Power </sup>
 
 ## Building the Hardware
+### Prototype Boards and Panel Mount Parts
 There are many optional parts as mentioned above because all of this can be hardwired depending on how much time you're willing to pour into creating this jig. I built the below example for work and built everything with alot of swapable parts and pin leads to make things easier to dismantle when/if needed.
 
 I created two prototype PCB's that contain 16 pin headers for the LCD units to plug into and mounted them onto the top face of the jig. I then added a potentiometer, lever switch and a push button next to the top face of the jig. This will be the main interface for this test jig.
 I then added a power switch and a barrel jack to one of the side faces of the jig. This is to ensure that I could use a 5V power adapter with different amperages for my needs, in this case I'll be powering two LCD units and the Arduino UNO which require around 2A.
 
 To create the brains of this LCD test jig, I mounted the Arduino UNO to the bottom plate of the test jig along with a prototype board. The prototype board has a positive and negative line for power and ground while the rest of the board is laid out to control the initiation of the LCD, control the contrast of the LCD, contain the wiring for the backlight circuit and the 8 pins that correspond to the 8 bits the LCD needs to function. These will then be connected to both headers on one end the remaining is wired to the Arduino UNO with the pins we choose to use. The reason I built this prototype board is so that I didn't have everything hardwired/soldered to pins and so that if the Arduino UNO ever gets burnt out or dies in some manner, it can be replaced easily. You can choose to configure the hardware for your needs.
+
+### LCD Pinout
+
+### Arduino UNO Pinout
+
+### Matching the wiring
 
 ## Configuring the Software
 Thankfully, Arduino already have a built in library for handling most LCD functions. The library is called LiquidCrystal and the Documentation can be found [here](https://docs.arduino.cc/libraries/liquidcrystal/)
