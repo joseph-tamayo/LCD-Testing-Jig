@@ -36,9 +36,9 @@ To create the brains of this LCD test jig, I mounted the Arduino UNO to the bott
 
 ## Configuring the Software
 Thankfully, Arduino already have a built in library for handling most LCD functions. The library is called LiquidCrystal and the Documentation can be found [here](https://docs.arduino.cc/libraries/liquidcrystal/)
-I wrote the using this library and the below code is the base, configure this however you like.
+Using this library I wrote the below code as the base, configure this to display however you like. 
 
-```
+```arduino
 LiquidCrystal lcd (8, 10, 7,6,5,4,3,2,1,0);
 
 void setup() {
