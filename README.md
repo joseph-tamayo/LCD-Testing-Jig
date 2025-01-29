@@ -50,12 +50,12 @@ void setup() {
   // What we want shown on the LCD screen 
   // Since there is no set cursor, this will print from the top left of the screen
   // Having 40 characters in your print statement will cause the screen to loop without blanks
-  lcd.print("Engineering Testing -----------");
+  lcd.print("Engineering Testing ------------------");
 
   // Setting the cursor to the bottom left of the second line of the screen
   lcd.setCursor(0,1);
   lcd.noCursor();
-  lcd.print("Engineering Testing -----------");
+  lcd.print("Engineering Testing ------------------");
 
 }
 
@@ -65,4 +65,5 @@ void loop() {
   delay(400);
 }
 ```
+
 
