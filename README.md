@@ -4,9 +4,10 @@ This is a testing jig that scrolls a message across both horizontal lines of the
 An Arduino UNO will be the brains of the functionality.
 
 ### Flexibility
-This project can be designed and built with flexibility to have this jig service several different character LCD's such as using a panel mounted 16 pin connector to simulate each pin on the LCD, then create different types of headers for each kind of character LCD unit to test.
+This project can be designed and built with flexibility to have this jig service several different character LCD's such as using a panel mounted 16 pin connector to simulate each pin on the LCD, then create different types of headers for each kind of character LCD unit to test. 
+Depending on the power source, this testing jig can also be built to test more than two units.
 
-The currently built version I built has the following features:
+The currently built version has the following features:
 - Power switch
 - Push button for backlight ON/OFF
 - Reset switch (Resets Arduino)
