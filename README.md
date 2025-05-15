@@ -1,4 +1,6 @@
 # LCD-Testing-Jig
+![LCD Test Jig](https://github.com/user-attachments/assets/d3c3d8f0-6708-4b6e-9254-4a57130e4fbe)
+
 The original design of this jig was to create a testing jig that would test the functionality and backlight of a particular 16pin character LCD unit (Winstar 1602E) and when I refer to the LCD unit, I will be refering to this model. These particular character LCDs already have male pin headers soldered onto them so this testing jig was designed with those in mind. 
 This is a testing jig that scrolls a message across both horizontal lines of the LCD unit to test if all the "pixels" on the dot matrix are working and to also test if the backlight works. 
 An Arduino UNO will be the brains of the functionality.
