@@ -23,7 +23,7 @@ The currently built version has the following features:
 - Prototyping PCBs with at least 8 lines across OR at least 16 lines +/-2 for power and ground lines
 - <sup>(optional)</sup> Headers for at least 14 - 16 pins
 #### Preferrably panel mount
-- Push Button
+- Push Button 'Note: in the jig featured above I'm using a toggle switch instead, this was done for a more consistent power draw and because using a push button caused some glitches in my jig, but it may have been cause by my wiring
 - <sup>(optional)</sup> Push Button or Switch <sup>This will be used to test the backlight for LCD</sup>
 - Potentiometer
 - <sup>(optional)</sup> Power Switch <sup> For Power </sup>
